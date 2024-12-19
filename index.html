@@ -1,96 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+      <link href="main.css" rel="stylesheet" />
+    <title>EcoPortfolio</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="title">
+              <span>EcoPortfolio</span>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="navbar">
+              <span class="home">Home</span>
+              <span class="portfolio">Portfolio</span>
+              <span class="about">About</span>
+              <span class="contact">Contact</span>
+            </div>
+          </header>
+          
+        <div class="divider"></div>
+        <div class="container">
+            <div class="maincontent">
+                <div class="hero">
+                    <div class="welcome">
+                        <p class="welcometext">Connecting with Nature Through Design</p>
+                    </div>
+                    <img class="welcomeimg" src="images/1.png">
+                </div>
+                <div class="projecttext">
+                    <p style="margin: 0;font-size: 34px">
+                        Showcase of Projects
+                    </p>
+                </div>
+                <div class="projects">
+                    <div class="project project1">
+                        <img class="project1img" src="images/2.png">
+                        <div class="project1text">
+                            <p style="margin: 0;line-height: 24px;font-family: 'Newsreader'; font-size: 20px; font-weight: 400; color: #000;text-align: center;padding: 0 12px;">Forest Retreat</p>
+                            <p style="margin: 0;line-height: 24px;font-family: 'Newsreader'; font-size: 17px; font-weight: 400; color: #000; line-height: 24px;text-align: center;padding: 0 12px;">A serene forest retreat designed with sustainable materials.</p>
+                        </div>
+                        <button class="projectbutton">View Project</button>
+                    </div>
+                    <div class="project project2">
+                        <img class="project2img" src="images/3.png">
+                        <div class="project2text">
+                            <p style="margin: 0;line-height: 24px;font-family: 'Newsreader'; font-size: 20px; font-weight: 400; color: #000;text-align: center;padding: 0 12px;">Urban Garden</p>
+                            
+                            <p style="margin: 0;line-height: 24px;font-family: 'Newsreader'; font-size: 17px; font-weight: 400; color: #000; line-height: 24px;text-align: center;padding: 0 12px;">Eco-friendly urban garden that brings nature to the city.</p>
+                        </div>
+                        <button class="projectbutton">View Project</button>
+                    </div>
+                    <div class="project project3">
+                        <img class="project3img" src="images/4.png">
+                        <div class="project3text">
+                            <p style="margin: 0;line-height: 24px;font-family: 'Newsreader'; font-size: 20px; font-weight: 400; color: #000;text-align: center;padding: 0 12px;">Coastal Home</p>
+                            
+                            <p style="margin: 0;line-height: 24px;font-family: 'Newsreader'; font-size: 17px; font-weight: 400; color: #000; line-height: 24px;text-align: center;padding: 0 12px;">A coastal home crafted with reclaimed wood and natural stone.</p>
+                        </div>
+                        <button class="projectbutton">View Project</button>
+                    </div>
+                </div>                    
+                <div class="aboutdiv">
+                    <p class="abouttext">I am an eco-conscious designer dedicated to creating spaces that harmonize with nature. My work emphasizes sustainability, natural materials, and organic aesthetics.</p>
+                </div>        
+                <div class="contactdiv">
+                    <div class="spacer">
+                        <span class="spacertext">Contact Me</span>
+                    </div>
+                    <span class="contacttext">Get in touch to discuss your next eco-friendly project.</span> 
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="socials">
+            <p class="socialstext">Follow me on social media</p>
+            <div class="email">
+                <input class="socialemail" type="email" placeholder="Your email">
+                <button class="emailbutton">Subscribe</button>
+            </div>
+            <div class="vectorlogos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 38 38" fill="none"><path d="M36.251 0.25H1.75098C0.921289 0.25 0.250977 0.920312 0.250977 1.75V36.25C0.250977 37.0797 0.921289 37.75 1.75098 37.75H36.251C37.0807 37.75 37.751 37.0797 37.751 36.25V1.75C37.751 0.920312 37.0807 0.25 36.251 0.25ZM31.9197 11.1953H28.9244C26.576 11.1953 26.1213 12.3109 26.1213 13.9516V17.5656H31.7275L30.9963 23.2234H26.1213V37.75H20.276V23.2281H15.3869V17.5656H20.276V13.3937C20.276 8.55156 23.2338 5.9125 27.5557 5.9125C29.6275 5.9125 31.4041 6.06719 31.9244 6.1375V11.1953H31.9197Z" fill="black"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M23.9996 13.0047C17.9192 13.0047 13.0121 17.9119 13.0121 23.9922C13.0121 30.0726 17.9192 34.9797 23.9996 34.9797C30.0799 34.9797 34.9871 30.0726 34.9871 23.9922C34.9871 17.9119 30.0799 13.0047 23.9996 13.0047ZM23.9996 31.1333C20.0674 31.1333 16.8585 27.9244 16.8585 23.9922C16.8585 20.0601 20.0674 16.8511 23.9996 16.8511C27.9317 16.8511 31.1406 20.0601 31.1406 23.9922C31.1406 27.9244 27.9317 31.1333 23.9996 31.1333ZM35.4371 9.994C34.0174 9.994 32.871 11.1404 32.871 12.5601C32.871 13.9797 34.0174 15.1261 35.4371 15.1261C36.8567 15.1261 38.0031 13.9851 38.0031 12.5601C38.0036 12.223 37.9375 11.8891 37.8087 11.5776C37.6799 11.2661 37.4909 10.983 37.2525 10.7446C37.0141 10.5063 36.7311 10.3173 36.4196 10.1885C36.108 10.0597 35.7742 9.99358 35.4371 9.994ZM45.4174 23.9922C45.4174 21.0351 45.4442 18.1047 45.2781 15.1529C45.1121 11.7244 44.3299 8.6815 41.8228 6.17436C39.3103 3.66186 36.2728 2.88508 32.8442 2.719C29.8871 2.55293 26.9567 2.57972 24.0049 2.57972C21.0478 2.57972 18.1174 2.55293 15.1656 2.719C11.7371 2.88508 8.6942 3.66722 6.18706 6.17436C3.67456 8.68686 2.89777 11.7244 2.7317 15.1529C2.56563 18.1101 2.59241 21.0404 2.59241 23.9922C2.59241 26.944 2.56563 29.8797 2.7317 32.8315C2.89777 36.2601 3.67991 39.3029 6.18706 41.8101C8.69956 44.3226 11.7371 45.0994 15.1656 45.2654C18.1228 45.4315 21.0531 45.4047 24.0049 45.4047C26.9621 45.4047 29.8924 45.4315 32.8442 45.2654C36.2728 45.0994 39.3156 44.3172 41.8228 41.8101C44.3353 39.2976 45.1121 36.2601 45.2781 32.8315C45.4496 29.8797 45.4174 26.9494 45.4174 23.9922ZM40.7031 36.6244C40.3121 37.5994 39.8406 38.3279 39.0853 39.0779C38.3299 39.8333 37.6067 40.3047 36.6317 40.6958C33.8138 41.8154 27.1228 41.5636 23.9996 41.5636C20.8763 41.5636 14.1799 41.8154 11.3621 40.7011C10.3871 40.3101 9.65849 39.8386 8.90849 39.0833C8.15313 38.3279 7.6817 37.6047 7.29063 36.6297C6.17634 33.8065 6.42813 27.1154 6.42813 23.9922C6.42813 20.869 6.17634 14.1726 7.29063 11.3547C7.6817 10.3797 8.15313 9.65115 8.90849 8.90115C9.66384 8.15115 10.3871 7.67436 11.3621 7.28329C14.1799 6.169 20.8763 6.42079 23.9996 6.42079C27.1228 6.42079 33.8192 6.169 36.6371 7.28329C37.6121 7.67436 38.3406 8.14579 39.0906 8.90115C39.846 9.6565 40.3174 10.3797 40.7085 11.3547C41.8228 14.1726 41.571 20.869 41.571 23.9922C41.571 27.1154 41.8228 33.8065 40.7031 36.6244Z" fill="black"/>
+                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M27.3516 21.3174L40.4578 6.39844H37.3531L25.9683 19.3497L16.882 6.39844H6.39941L20.1427 25.9849L6.39941 41.6278H9.50405L21.519 27.9479L31.1169 41.6278H41.5994M10.6246 8.69113H15.3942L37.3508 39.4477H32.58" fill="black"/>
+                    </svg>
+            </div>
+        </div>
+        <footer>
+            <div class="footercontainer">
+                <div class="pagelink">
+                    <span>2023 EcoPortfolio</span>
+                </div>
+                <button class="followme"><span class="buttontext">Contact</span></button>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
