@@ -14,7 +14,7 @@ header {
   }
   
   header .title {
-    font-family: 'Playball';
+    font-family: 'Abyssinica SIL';
     font-size: 42px;
     font-weight: 400;
     line-height: 42px;
@@ -40,9 +40,9 @@ header {
     grid-template-columns: repeat(4, auto);
     gap: 22px;
   }
-  
+
   header .navbar span {
-    font-family: 'Lexend Exa';
+    font-family: 'BIZ UDPMincho';
     font-size: 28px;
     font-weight: 300;
     line-height: 32px;
@@ -108,7 +108,7 @@ header {
 }
 .welcometext{
     margin: 48px 0;
-    font-family: Lexend Exa;
+    font-family: 'BIZ UDPMincho';
     font-size: 120px;
     font-weight: 300;
     line-height: 120px;
@@ -157,6 +157,7 @@ header {
 
 .projectbutton{
     color:white;
+    font-family: 'Roboto Mono';
     background-color: #19332D;
     padding: 8px 16px;
     border-radius: 8px 
@@ -178,7 +179,7 @@ img{
     grid-template-columns: 40% 60%
 }
 .abouttext{
-    font-family: 'Lexend Exa';
+    font-family: 'BIZ UDPMincho';
     font-size: 48px;
     font-weight: 280;
     line-height: 52px;
@@ -218,7 +219,7 @@ img{
     gap: 40vw;
 }
 .spacertext{
-    font-family:'Lexend Exa';
+    font-family: 'BIZ UDPMincho';
     font-size: 29px;
     font-weight: 250;
     line-height: 32px;
@@ -226,7 +227,7 @@ img{
     text-align: left;
 }
 .contacttext{
-    font-family: 'Newsreader';
+    font-family: 'Gothic A1';
     font-size: 18px;
     font-weight: 300;
     line-height: 28px;
@@ -261,7 +262,7 @@ footer{
 }
 
 .pagelink{
-    font-family: 'Lexend Exa';
+    font-family: 'BIZ UDPMincho';
     color: #00000099;
     font-size: 29px;
     font-weight: 270;
@@ -277,7 +278,7 @@ footer{
     background-color: transparent;
 }
 .buttontext{
-    font-family: Lexend Exa;
+    font-family: 'BIZ UDPMincho';
     color: #000000;
     font-size: 21px;
     font-weight: 400;
@@ -321,10 +322,15 @@ footer{
     height: auto;
     padding: 12px 24px;
     border-radius: 8px;
+    font-family: 'Roboto Mono';
 
 }
 
 .vectorlogos{
     display: flex;
     gap: 32px;
+}
+
+.followme{
+    font-family: 'Roboto Mono';
 }
