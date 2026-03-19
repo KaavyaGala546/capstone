@@ -1,26 +1,28 @@
 # 🌐 Modern Responsive Landing Page
 
+> A clean and responsive landing page built using pure HTML and CSS with a focus on modern UI design and user experience.
+
 🔗 **Live Demo:** https://capstone-kappa-ebon.vercel.app/
 
 ---
 
 ## 📌 Overview
 
-**Modern Responsive Landing Page** is a clean and visually appealing static website built using **HTML5 and CSS3**.
-The project focuses on creating a structured layout, responsive design, and a smooth user experience using core web development fundamentals.
+This project is a modern static landing page developed using **HTML5 and CSS3**.
+It showcases the ability to build a visually appealing and responsive interface without using any frameworks or JavaScript.
 
-It demonstrates the ability to build a modern UI without relying on frameworks or JavaScript.
+The design focuses on simplicity, consistency, and a smooth user experience across all screen sizes.
 
 ---
 
 ## ✨ Features
 
-* 📱 Fully responsive design (mobile, tablet, desktop)
-* 🎨 Clean and modern user interface
-* 🧩 Structured layout using semantic HTML
-* ⚡ Fast-loading static website
+* 📱 Fully responsive (mobile, tablet, desktop)
+* 🎨 Clean and modern UI design
+* 🧩 Semantic and structured HTML layout
+* ⚡ Lightweight and fast-loading
 * 📐 Consistent spacing and typography
-* 🖼️ Organized assets and project structure
+* 🖼️ Well-organized project structure
 
 ---
 
@@ -34,7 +36,7 @@ It demonstrates the ability to build a modern UI without relying on frameworks o
 
 ## 📂 Project Structure
 
-```text
+```
 project/
 │── index.html
 │── css/
@@ -48,18 +50,17 @@ project/
 
 ## 📸 Screenshots
 
-
 ![Landingpage](./assets/screenshots/landingpage.png)
 
 ---
 
-## 🎯 What I Learned
+## 🎯 Learning Outcomes
 
 * Writing clean and semantic HTML
 * Building responsive layouts using CSS
-* Structuring and organizing a front-end project
-* Applying modern UI design principles
-* Improving attention to spacing, alignment, and consistency
+* Structuring a professional front-end project
+* Applying modern UI/UX design principles
+* Improving attention to layout and consistency
 
 ---
 
@@ -67,18 +68,17 @@ project/
 
 * Add JavaScript for interactivity
 * Improve animations and transitions
-* Enhance mobile responsiveness further
+* Enhance accessibility (ARIA, contrast, etc.)
 * Expand into a multi-page website
-* Add accessibility improvements (ARIA, contrast, etc.)
 
 ---
 
 ## 👨‍💻 Author
 
-Kaavya Gala
+**Kaavya Gala**
 
 ---
 
 ## 📜 License
 
-This project is open for learning and personal use.
+Open for learning and personal use.
