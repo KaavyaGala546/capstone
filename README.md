@@ -48,7 +48,6 @@ project/
 
 ## 📸 Screenshots
 
-*(Add screenshots here for better impact)*
 
 ![Landingpage](./assets/screenshots/landingpage.png)
 
