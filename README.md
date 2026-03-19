@@ -76,7 +76,7 @@ project/
 
 ## 👨‍💻 Author
 
-Your Name
+Kaavya Gala
 
 ---
 
