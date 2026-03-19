@@ -50,7 +50,8 @@ project/
 
 ## 📸 Screenshots
 
-![Landingpage](./assets/screenshots/landingpage.png)
+![Landingpage](./assets/screenshots/mobile-fullpage.png)
+![Mobilefullpage](./assets/screenshots/landingpage.png)
 
 ---
 
