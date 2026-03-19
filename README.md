@@ -50,7 +50,7 @@ project/
 
 *(Add screenshots here for better impact)*
 
-![Homepage](./screenshots/homepage.png)
+![Landingpage](./assets/screenshots/landingpage.png)
 
 ---
 
